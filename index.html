@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foto</title>
+    <link rel="stylesheet" type="text/css" href="https://www.unpkg.com/fullpage.js/dist/fullpage.min.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="./js/index.js" defer></script>
+</head>
+<body>
+    <header>
+        <p class="header__logo">A.Gregory</p>
+        <div class="header__menu">
+            <ul class="header__menu-inner">
+                <li class="header__menu-inner--item"><a href="#">Главная</a></li>
+                <li class="header__menu-inner--item"><a href="#">Мои работы</a></li>
+                <li class="header__menu-inner--item"><a href="#">Контакты</a></li>
+            </ul>
+        </div>
+        <div class="header_contacts">
+            <ul class="header-container_list">
+                <li class="header-container_list-item"><a class="header-container_list-item-social footer-container_list-item-social" href=""><img class="header-container_list-item-social-img" src="./img/social-telegram-svgrepo-com.svg" alt="Telegram"></a></li>
+                <li class="header-container_list-item"><a class="header-container_list-item-social footer-container_list-item-social" href=""><img class="header-container_list-item-social-img" src="./img/social-whatsapp-svgrepo-com.svg" alt="whatsApp"></a></li>
+                <li class="header-container_list-item"><a class="header-container_list-item-social footer-container_list-item-social" href=""><img class="header-container_list-item-social-img" src="./img/social-vkontakte-svgrepo-com.svg" alt="vk"></a></li>
+                <li class="header-container_list-item"><a class="header-container_list-item-social footer-container_list-item-social" href=""><img class="header-container_list-item-social-img" src="./img/social-instagram-svgrepo-com.svg" alt="instagram"></a></li>
+            </ul>
+        </div>
+    </header>
+    <div id="fullpage">
+        <div class="section">
+            <div class="intro">
+                <h1>Gregory Art</h1>
+                <h2>Профессиональный фотограф</h2>
+                <button>Напиши</button>
+            </div>      
+        </div>
+        <div class="section">
+            <div class="slide">
+                <div class="slide__text">
+                    <h1>Travel<br>and Nature</h1>
+                    <button>View</button>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide__text">
+                    <h1>Food<br>and Groceries</h1>
+                    <button>View</button>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="slide__text">
+                    <h1>Interier design<br>and architecture</h1>
+                    <button>View</button>
+                </div>
+            </div>
+        </div>
+        <div class="section">
+            <div class="slide__text">
+                <h1>Контакты</h1>
+                <p>Почта: A.Gregory@gmail.com</p>
+                <p>Телефон: +7 916 666 66 66</p>
+                <ul class="header-container_list">
+                    <li class="header-container_list-item"><a class="header-container_list-item-social footer-container_list-item-social" href=""><img class="header-container_list-item-social-img" src="./img/social-telegram-svgrepo-com.svg" alt="Telegram"></a></li>
+                    <li class="header-container_list-item"><a class="header-container_list-item-social footer-container_list-item-social" href=""><img class="header-container_list-item-social-img" src="./img/social-whatsapp-svgrepo-com.svg" alt="whatsApp"></a></li>
+                    <li class="header-container_list-item"><a class="header-container_list-item-social footer-container_list-item-social" href=""><img class="header-container_list-item-social-img" src="./img/social-vkontakte-svgrepo-com.svg" alt="vk"></a></li>
+                    <li class="header-container_list-item"><a class="header-container_list-item-social footer-container_list-item-social" href=""><img class="header-container_list-item-social-img" src="./img/social-instagram-svgrepo-com.svg" alt="instagram"></a></li>
+                </ul>
+                <button>Записаться на фотосессию</button>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://www.unpkg.com/fullpage.js/dist/fullpage.min.js"></script>
+    <script type="text/javascript">
+        var myFullpage = new fullpage('#fullpage', {
+            anchors: ['firstPage', 'secondPage', '3rdPage'],
+            navigationTooltips: ['First Section', 'Second Section', 'Third Section'],
+            navigation: true,
+            slidesNavigation: true,
+            controlArrows: true,
+            licenseKey: 'xxxxxxxxxxxxxxxxxxxxxxxxx'
+        });
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
