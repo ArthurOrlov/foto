@@ -1,0 +1,95 @@
+.ant-carousel {
+    margin: 0;
+    border: none;
+    width: 50%;
+    position: relative;
+}
+  
+.ant-carousel-element {
+    width: 420px;
+    height: 420px;
+    text-align: center;
+    display: block;
+    flex: 0 0 auto;
+    margin-right: 20px;
+}
+
+.participants-card-img {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 420px;
+}
+
+.ant-carousel-hider {
+    overflow: hidden;
+}
+  
+.ant-carousel-list {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.participants-title {
+    width: 100%;
+}
+.carousel-arrows {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    padding: 0 40px;
+}
+.carousel-arrows-mob {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.ant-carousel-arrow-img {
+    width: 8px;
+    height: 17px;
+}
+.ant-carousel-arrow-left,
+.ant-carousel-arrow-right {
+    width: 56px;
+    height: 56px;
+    cursor: pointer;
+    transition: all .25s ease-in;
+    background-color: var(--text-grey);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+  
+.ant-carousel-arrow-left {
+    display: block;
+    background: url(../img/arrow-small-left.svg) no-repeat var(--text-grey) center center;
+    object-fit: cover;
+    top: 50%;
+}
+  
+.ant-carousel-arrow-right {
+    display: block;
+    background: url(../img/arrow-small-right.svg) no-repeat var(--text-grey) center center;
+    top: 50%;
+}
+  
+.ant-carousel-arrow-left:hover,
+.ant-carousel-arrow-right:hover {
+    border: 7px solid #78dd50;
+}
+.ant-carousel-arrow-left:active,
+.ant-carousel-arrow-right:active,
+.ant-carousel-arrow-left:focus,
+.ant-carousel-arrow-right:focus {
+    border: 1px solid #78dd50;
+}
