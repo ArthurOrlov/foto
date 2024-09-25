@@ -359,10 +359,10 @@ button {
     margin-bottom: 40px;
   }
   .fp-arrow.fp-prev {
-    border-width: 18.5px 14px 18.5px 0;
+    border-width: 16.5px 12px 16.5px 0;
   }
   .fp-arrow.fp-next {
-    border-width: 18.5px 0 18.5px 14px;
+    border-width: 16.5px 0 16.5px 12px;
   }
 
   .fp-overflow {
