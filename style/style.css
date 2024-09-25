@@ -72,13 +72,13 @@ h2 {
 #menu {
   position: absolute;
   z-index: 10;
-  top: 120px;
+  top: 80px;
   bottom: 0;
   right: 0;
-  width: 200px;
-  height: 200px;
+  width: 130px;
+  height: 130px;
   padding: 20px;
-  background-color: rgba(255, 255, 255, .3);
+  background-color: rgba(255, 255, 255, .4);
   -webkit-transition: -webkit-transform .6s ease-in-out;
   transition: -webkit-transform .6s ease-in-out;
   -o-transition: transform .6s ease-in-out;
@@ -355,6 +355,8 @@ button {
   .Project {
     margin-left: 4%;
     padding: 0 20px;
+    width: 100%;
+    margin-bottom: 40px;
   }
   .fp-arrow.fp-prev {
     border-width: 18.5px 14px 18.5px 0;
@@ -362,6 +364,11 @@ button {
   .fp-arrow.fp-next {
     border-width: 18.5px 0 18.5px 14px;
   }
+
+  .fp-overflow {
+    display: block;
+  }
+
 }
 
 @media (max-width: 550px) {
@@ -376,5 +383,9 @@ button {
     height: 40px;
     margin-right: 20px;
   }
+  .header__menu-inner--item {
+    margin-bottom: 20px;
+  }
+
 
 }
